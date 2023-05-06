@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(224, 221, 221);
+    height: 100px;
+    width: 100%;
+}
+#searchbar{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+#navbar>#searchbar>input {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 10px 0 0 10px;
+}
+#searchbar>button{
+    width: 100px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    cursor: pointer;
+}
+#navbar a {
+    font-size: 20px;
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+#foodlist-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+.imgDiv {
+    width: 30%;
+}
+.descriptionDiv {
+    width: 70%;
+}
+img {
+    width: 100%;
+}
+#login, #signup {
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 15px;
+    cursor: pointer;
+    height: 30px;
+}
